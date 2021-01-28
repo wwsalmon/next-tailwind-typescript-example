@@ -9,9 +9,7 @@ class MyDocument extends Document {
     render() {
         return (
             <Html>
-                <Head>
-                    <title>Next Tailwind Typescript Example</title>
-                </Head>
+                <Head />
                 <body>
                     <Main />
                     <NextScript />
