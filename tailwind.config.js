@@ -1,14 +1,9 @@
 module.exports = {
-    purge: [
+    content: [
         './**/*.html',
         './**/*.tsx',
     ],
-    theme: {
-        container: {
-            center: true,
-            padding: "1rem",
-        },
-    },
+    theme: {},
     variants: {},
     plugins: [],
 }
